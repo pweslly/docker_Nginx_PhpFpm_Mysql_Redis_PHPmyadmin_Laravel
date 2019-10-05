@@ -1,0 +1,15 @@
+Apos fazer docker-compose up -d --build
+
+Acessar o container da aplicação   docker exec -it nome_container /bin/bash
+
+Digite esse comando  cd /var/www/
+
+Verifique se o arquivo .env.example foi copiado, usando o comando ls -la
+
+Se encontrar, beleza, vamos para próximo passo.
+
+Digite  cp .env.example env.
+
+Logo após
+
+php artisan key:generate
